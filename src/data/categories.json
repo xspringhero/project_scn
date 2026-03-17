@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "FPS",
+    "description": "First Person Shooter",
+    "totalGames": 20
+  },
+  {
+    "id": 2,
+    "name": "Chiến thuật",
+    "description": "Chiến thuật",
+    "totalGames": 30
+  }
+]
