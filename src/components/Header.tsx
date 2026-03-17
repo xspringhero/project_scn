@@ -3,8 +3,8 @@ import {useEffect, useState} from "react";
 
 const Header = () => {
     // Xử lý thêm
-    const [name, setName] = useState<string>('T2512E');
-    const [email, setEmail] = useState<string>('hung@gmail.com');
+    const [name] = useState<string>('T2512E');
+    const [email] = useState<string>('hung@gmail.com');
     const [countNumber, setCountNumber] = useState<number>(0);
 
     const [text, setText] = useState<string>('');

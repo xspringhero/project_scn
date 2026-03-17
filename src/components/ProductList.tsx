@@ -3,7 +3,6 @@ import type {Product} from "./ProductCard.tsx";
 import ProductCard from "./ProductCard.tsx";
 
 const ProductList = () => {
-    const [count, setCount] = useState<number>(0);
     const [products, setProducts] = useState<Product[]>([
         { id: 1, name: "iPhone 15 Pro", price: 28000000, isLiked: false },
         { id: 2, name: "MacBook Air M2", price: 24000000, isLiked: false },
